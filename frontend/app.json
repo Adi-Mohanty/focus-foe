@@ -15,13 +15,20 @@
         "foregroundImage": "./assets/android-icon-foreground.png",
         "backgroundImage": "./assets/android-icon-background.png",
         "monochromeImage": "./assets/android-icon-monochrome.png"
-      }
+      },
+      "package": "com.adimohanty.focusfoe"
     },
     "web": {
       "favicon": "./assets/favicon.png"
     },
     "extra": {
-      "useLocalBackend": false
-    }
+      "useLocalBackend": false,
+      "eas": {
+        "projectId": "3bc35d65-dfe0-4702-ba19-8c29fee611dd"
+      }
+    },
+    "plugins": [
+      "expo-font"
+    ]
   }
 }
