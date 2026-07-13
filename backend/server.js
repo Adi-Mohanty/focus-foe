@@ -7,6 +7,7 @@ const helmet = require('helmet');
 const rateLimit = require('express-rate-limit');
 
 const app = express();
+app.set('trust proxy', 1);
 const PORT = process.env.PORT || 3001;
 
 app.disable('x-powered-by');
@@ -934,6 +935,6 @@ app.get(
 
 app.listen(PORT, () => {
   console.log(
-    `FocusFoe API running on http://localhost:${PORT}`
-  );
+    `FocusFoe API listening on port ${PORT}`
+    );
 });

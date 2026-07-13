@@ -9,7 +9,7 @@ export const fetchVillainVoiceApi =
       setTimeout(
         () =>
           controller.abort(),
-        30000
+        45000
       );
 
     try {

@@ -1,4 +1,4 @@
-export const API_BASE = 'http://10.76.43.47:3001';
+export const API_BASE = 'https://clever-wonder-production-94c5.up.railway.app';
 export const XP_STORAGE_KEY = '@focusfoe/xp';
 export const STATS_STORAGE_KEY = '@focusfoe/stats';
 export const ACHIEVEMENTS_STORAGE_KEY = '@focusfoe/achievements';
