@@ -1,0 +1,17 @@
+# Dependencies
+node_modules/
+**/node_modules/
+
+# Expo
+.expo/
+**/.expo/
+
+# Environment
+.env
+*.env
+
+# macOS
+.DS_Store
+
+# Logs
+*.log
