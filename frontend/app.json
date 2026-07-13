@@ -24,11 +24,12 @@
     "extra": {
       "useLocalBackend": false,
       "eas": {
-        "projectId": "3bc35d65-dfe0-4702-ba19-8c29fee611dd"
+        "projectId": "715c858d-76f5-44af-b3b7-4d894698c77e"
       }
     },
     "plugins": [
       "expo-font"
-    ]
+    ],
+    "owner": "adimohanty"
   }
 }
