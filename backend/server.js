@@ -45,16 +45,12 @@ const OPENROUTER_TIMEOUT =
   ) || 25000;
 
 const MODELS = [
-  // 'openrouter/free',
-  'openai/gpt-oss-20b:free',
-  'openai/gpt-oss-120b:free',
-  'google/gemma-4-31b-it:free',
+  'poolside/laguna-xs-2.1:free',
+  'nvidia/nemotron-3-nano-30b-a3b:free',
   'poolside/laguna-m.1:free',
-  // 'google/gemma-4-26b-a4b-it:free',
-  'liquid/lfm-2.5-1.2b-instruct:free',
-  'nvidia/nemotron-3.5-content-safety:free',
-  // 'nvidia/nemotron-3-nano-30b-a3b:free',
-  // 'nvidia/nemotron-3-nano-omni-30b-a3b-reasoning:free',
+  'google/gemma-4-31b-it:free',
+  'openai/gpt-oss-20b:free',
+  'meta-llama/llama-3.3-70b-instruct:free',
 ];
 
 const VALID_PHASES = [
